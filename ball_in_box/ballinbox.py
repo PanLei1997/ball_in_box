@@ -27,7 +27,7 @@ def ball_in_box(m=5, blockers=[(0.5, 0.5), (0.5, -0.5), (0.5, 0.3)]):
 
 def max_in_nine_points(ox, oy, d, circles, blockers):
     max_circle = center_circle = (ox, oy, max_circle_one_point(ox, oy, circles, blockers))
-    for i in range(1, 16):
+    for i in range(1, 13):
         #x0 = d*math.cos((i/9) * math.pi / 4)
         #y0 = d*math.sin((i/9) * math.pi / 4)
         if i == 1 or i == 2 or i == 3:
